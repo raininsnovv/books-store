@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 });
 
 mongoose.connect(
-  "mongodb+srv://raininsnovv:Nukaktebeskazat_1@cluster0.muvlnn7.mongodb.net/book-store",
+  "mongodb+srv://raininsnovv:Nukaktebeskazat_1@cluster0.muvlnn7.mongodb.net/books-store",
   (err) => {
     if (err) {
       console.log(err);
